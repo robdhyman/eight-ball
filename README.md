@@ -1,1 +1,1 @@
-# eight-ball
+# EightBall
