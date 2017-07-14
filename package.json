@@ -1,6 +1,6 @@
 {
-  "name": "botbuilder-sample-rollerskill",
-  "version": "1.0.0",
+  "name": "eight-ball",
+  "version": "0.0.2",
   "description": "Bot Builder Sample - Roller Skill",
   "scripts": {
     "start": "node app.js"
@@ -13,16 +13,14 @@
     "chatbots",
     "botbuilder-samples"
   ],
-  "bugs": {
-    "url": "https://github.com/Microsoft/BotBuilder-Samples/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/BotBuilder-Samples.git"
+    "url": "git+https://github.com/robdhyman/eight-ball.git"
   },
   "dependencies": {
-    "botbuilder": "^3.8.2",
-    "dotenv-extended": "^2.0.0",
-    "restify": "^4.3.0"
-  }
+    "botbuilder": "^3.8.4",
+    "dotenv-extended": "^2.0.1",
+    "restify": "^4.3.1"
+  },
+  "main": "app.js"
 }
